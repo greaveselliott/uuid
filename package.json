@@ -22,6 +22,9 @@
   },
   "scripts": {
     "test": "jest",
-    "build": "npx webpack --config webpack.config.js"
+    "build": "npx webpack --config webpack.config.js --mode=production"
+  },
+  "resolutions": {
+    "terser": "v3.16.0"
   }
 }

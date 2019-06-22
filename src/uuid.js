@@ -4,7 +4,7 @@ const uuid = () => {
     typeof performance !== "undefined" &&
     typeof performance.now === "function"
   ) {
-    date += performance.now(); //use high-precision timer if available
+    date += performance.now();
   }
 
   return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(

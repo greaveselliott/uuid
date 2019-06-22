@@ -4,6 +4,8 @@ module.exports = {
   entry: "./src/uuid.js",
   output: {
     filename: "uuid.js",
-    path: path.resolve(__dirname, "dist")
+    path: path.resolve(__dirname, "dist"),
+    library: "WebUuidJs",
+    libraryTarget: "commonjs2"
   }
 };

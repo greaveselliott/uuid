@@ -19,7 +19,7 @@ yarn add uuid-js
 ### Example usage
 
 ```javascript
-import uuid from "uuid-js";
+import uuid from "web-uuid-js";
 
 const Uuid = uuid();
 ```
