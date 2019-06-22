@@ -1,2 +1,2 @@
 # uuid
-Simple utility for generated collision resistant UUID
+Simple utility for generating collision resistant UUID
