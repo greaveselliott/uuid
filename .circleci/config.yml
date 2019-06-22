@@ -37,11 +37,3 @@ jobs:
       - run: yarn test
 
       - run: yarn build
-
-      - run:
-          name: bump package version
-          command: |
-            git config user.email $CIRCLE_USERNAME
-            npm version -m "Bumped version number to %s [ci skip]"
-            git push origin master
-            git push --tags

@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/greaveselliott/uuid/tree/master.svg?style=svg)](https://circleci.com/gh/greaveselliott/uuid/tree/master)
 
-# UUID JS
+# Web UUID JS
 
 Simple utility for generating collision resistant UUID within the web browser
 
