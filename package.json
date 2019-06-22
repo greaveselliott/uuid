@@ -1,5 +1,5 @@
 {
-  "name": "uuid-js",
+  "name": "web-uuid-js",
   "version": "1.0.0",
   "description": "Simple collision resistant UUID generator",
   "main": "dist/uuid.js",
