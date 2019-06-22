@@ -1,0 +1,27 @@
+{
+  "name": "uuid-js",
+  "version": "1.0.0",
+  "description": "Simple collision resistant UUID generator",
+  "main": "dist/uuid.js",
+  "repository": "https://github.com/greaveselliott/uuid.git",
+  "author": "Elliott Greaves",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/preset-env": "^7.4.5",
+    "babel": "^6.23.0",
+    "babel-jest": "^24.8.0",
+    "jest": "^24.8.0",
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4"
+  },
+  "jest": {
+    "verbose": true,
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    }
+  },
+  "scripts": {
+    "test": "jest",
+    "build": "npx webpack --config webpack.config.js"
+  }
+}
