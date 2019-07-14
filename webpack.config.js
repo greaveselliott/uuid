@@ -1,11 +1,23 @@
-const path = require("path");
+var path = require("path");
 
 module.exports = {
-  entry: "./src/uuid.js",
+  entry: "./src/index",
   output: {
-    filename: "uuid.js",
     path: path.resolve(__dirname, "dist"),
-    library: "WebUuidJs",
+    filename: "index.js",
+    library: "ReactRouterHooks",
     libraryTarget: "commonjs2"
+  },
+  resolve: {
+    extensions: [".ts", ".tsx", ".js", ".json"]
+  },
+  module: {
+    rules: [
+      {
+        test: /\.(ts|js)x?$/,
+        exclude: /node_modules/,
+        loader: "babel-loader"
+      }
+    ]
   }
 };
