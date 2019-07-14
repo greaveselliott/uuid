@@ -1,9 +1,9 @@
 {
-  "name": "web-uuid-js",
-  "version": "1.0.1",
-  "description": "Simple collision resistant UUID generator",
-  "main": "dist/uuid.js",
-  "repository": "https://github.com/greaveselliott/uuid.git",
+  "name": "react-router-hooks",
+  "version": "0.1.0",
+  "description": "Wrapper around React Router, exposing React Router functionality through React Hooks.",
+  "main": "dist/index.js",
+  "repository": "https://github.com/greaveselliott/react-router-hooks.git",
   "author": "Elliott Greaves",
   "license": "MIT",
   "devDependencies": {
@@ -26,5 +26,9 @@
   },
   "resolutions": {
     "terser": "v3.16.0"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-router-dom": "^5.0.1"
   }
 }
