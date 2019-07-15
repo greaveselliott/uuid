@@ -17,7 +17,7 @@
     "@babel/preset-typescript": "^7.3.3",
     "babel": "^6.23.0",
     "babel-jest": "^24.8.0",
-    "babel-loader": "8.0.4",
+    "babel-loader": "8.0.6",
     "jest": "^24.8.0",
     "typescript": "^3.5.3",
     "webpack": "^4.35.3",
